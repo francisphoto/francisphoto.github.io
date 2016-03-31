@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alegreya+Sans);
+
+nav ul {
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+  text-align: center;
+  padding: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #cc4400;
+  color: #330000;
+  border: 2px #330000;
+  padding: 5px;
+  display: block;
+  width: 150px;
+}
+
+.floatright {
+  float: right;
+  padding-right:150px;
+}
+
+#navlist	{
+  top: 0;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+  background-color: #cc4400;
+}
+
+body {
+  background-color: #ffffcc;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin:0;
+  max-width: 850px;
+}
+
+h1 {
+  color: #330000;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 50px
+}
+
+address {
+  color: #330000;
+  font-style: normal;
+  font-size: 20px;
+}
+
+a:link {
+    color: #330000;
+}
+
+a:visited {
+    color: #662200;
+}
+
+a:hover {
+    color: #cc4400;
+}
+
+a:active {
+    color: #cc4400;
+}
+#pathbrite {
+  background-color: #ffffcc;
+  color: #330000;
+  border: 2px solid #cc4400;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a#pathbrite:hover {
+
+    background-color: #cc4400;
+    color: #ffffcc;
+}
+
+#skillsbox {
+  display: inline-block;
+  width:340px;
+  border:1px solid;
+  vertical-align:bottom;
+  height: 350px;
+  background-color: #ffffcc;
+  padding: 15px;
+  border: 5px solid #cc4400;
+  margin: 25px;
+  float:left;
+}
+
+#educationbox {
+  display: inline-block;
+  width: 322px;
+  border:1px solid;
+  vertical-align:bottom;
+  height: 350px;
+  background-color: #ffffcc;
+  padding: 15px;
+  border: 5px solid #cc4400;
+  margin: 25px;
+  float:left;
+}
+
+#experiencebox {
+  background-color: #ffffcc;
+  vertical-align: top;
+  width: 750px;
+  height: 850px;
+  padding: 15px;
+  border: 5px solid #cc4400;
+  margin: 25px;
+}
+
+  .clearfix {
+    clear: both;
+  }
