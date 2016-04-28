@@ -1,41 +1,55 @@
 @media (min-width: 320px) {
 
-    nav {
-      max-width: 95%;
+
+   .center {
+     width: 100% !important;
+     text-align: center;
     }
 
   	html, body {
-  		font: 12px;
+  		font: 8px;
   		background-image: url(background.jpg);
-  		padding: 3px;
-  		color: #000;
+  		padding: 1px;
   		margin: 0;
   	}
 
-  	#my-div {
-    display: none; 
+    p {
+      max-width: 250px;
     }
-
-  	h1, h2 {
-  		font-weight: normal;
-  		}
 
   	img {
   		max-width: 250px;
   		}
 
-  	.center {
-  		width: 100% !important;
-  		text-align: center;
-  		}
-
   	a:link, a:visited {
-  		color: #0000CC;
+  		color: #330000;
   		}
 
   	a:hover, a:active {
   		text-decoration: underline;
-  		color: #660066;
+  		color: #b38600;
   		}
+
+      #gallery {
+        max-width: 250px;
+      }
+
+      #gallery ul {
+       list-style: none;
+      }
+
+      #gallery li {
+        margin: 1px;
+      }
+
+      #gallery img {
+        display:block;
+        padding: 1px;
+        background-color: #330000;
+      }
+
+      #gallery img:hover {
+        background-color: #b38600;
+      }
 
 }
