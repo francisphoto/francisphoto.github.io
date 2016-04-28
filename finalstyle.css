@@ -16,10 +16,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-decoration: none;
 }
 
 li {
     float: left;
+    text-decoration: none;
 }
 
 li a {
