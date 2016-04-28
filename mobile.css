@@ -1,20 +1,10 @@
 @media (min-width: 320px) {
 
-
-    li a {
-      padding: 1px;
-      display: inline-block;
-    }
-
   	body {
   		font: 8px;
   		background-image: url(background.jpg);
   		padding: 1px;
   		margin: 0;
-  	}
-
-  	img {
-  		max-width: 250px;
   	}
 
   	a:link, a:visited {
