@@ -1,5 +1,10 @@
 @media (min-width: 320px) {
 
+
+    nav ul a {
+      display: inline-block;
+    }
+
   	body {
       text-align: center;
   		font: 8px;
