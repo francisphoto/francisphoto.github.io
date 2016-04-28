@@ -1,12 +1,7 @@
 @media (min-width: 320px) {
 
-
-   .center {
-     width: 100% !important;
-     text-align: center;
-    }
-
-  	html, body {
+  	body {
+      text-align: center;
   		font: 8px;
   		background-image: url(background.jpg);
   		padding: 1px;
