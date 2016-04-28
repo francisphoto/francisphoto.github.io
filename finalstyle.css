@@ -39,6 +39,10 @@ li a:hover {
   color: #b38600;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-image: url("background.jpg");
   background-attachment: fixed;
