@@ -10,11 +10,11 @@
   		padding: 3px;
   		color: #000;
   		margin: 0;
-  		}
+  	}
 
-  	#sidebar, #footer #my-div {
-  		display: none;
-  		}
+  	#my-div {
+    display: none; 
+    }
 
   	h1, h2 {
   		font-weight: normal;
