@@ -38,13 +38,6 @@
   body {
     position: center;
     background-image: url("background.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    font-family: 'Skranji';
-    font-size: 20px;
-    color: #330000;
-    margin:10px;
-    max-width: 1000px;
   }
 
   h1 {
