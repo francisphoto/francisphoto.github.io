@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Art</title>
+    <link rel="stylesheet" type="text/css" href="finalstyle.css">
+  </head>
+
+<div id="my-div">
+
+    <body>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="photos.html">PHOTO</a></li>
+          <li><a href="videos.html">VIDEO</a></li>
+          <li><a href="art.html">GRAPHICS</a></li>
+        </ul>
+      </nav>
+
+      <h1>Graphic Design</h1>
+
+  <section>
+
+    <div id="gallery">
+      <ul>
+        <li><a  class="fancybox" rel="group" href="images/iguana-poster.jpg" title="Promotional poster for a study abroad program in the Galapagos, photo by me"><img src="images/thumbs/iguana-poster.jpg" alt="outpost"></a></li>
+        <li><a  class="fancybox" rel="group" href="images/natgeo.jpg" title="Mock up of a National Geographic Magazine, photo by me"><img src="images/thumbs/natgeo.jpg" alt="outpost"></a></li>
+      </ul>
+      <ul>
+        <li><a  class="fancybox" rel="group" href="images/natgeo2.jpg" title="Magazine mock up, photo by me"><img src="images/thumbs/natgeo2.jpg" alt="outpost"></a></li>
+        <li><a  class="fancybox" rel="group" href="images/whitelion.jpg" title="Infographic on the white lion, photos from creative commons"><img src="images/thumbs/whitelion.jpg" alt="outpost"></a></li>
+      </ul>
+    </div>
+  </section>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+</div>
+
+  </body>
+</html>
