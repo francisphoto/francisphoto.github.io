@@ -1,7 +1,7 @@
 @media (min-width: 320px) {
 
 
-    ul li a {
+    li a {
       padding: 1px;
       display: inline-block;
     }
