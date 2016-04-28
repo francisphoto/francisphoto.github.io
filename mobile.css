@@ -21,10 +21,10 @@
     display: inline-block;
     color: #330000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1px 1px;
     text-decoration: none;
     font-family: 'Skranji';
-    font-size: 40px;
+    font-size: 20px;
   }
 
   li a:visited {
@@ -36,20 +36,19 @@
   }
 
   body {
-    position: center;
     background-image: url("background.jpg");
   }
 
   h1 {
     color: #330000;
     font-family: 'Skranji';
-    font-size: 50px;
+    font-size: 30px;
   }
 
   img {
-    padding: 10px;
-    border: 5px solid #330000;
-    margin: 5px;
+    padding: 1px;
+    border: 2px solid #330000;
+    margin: 2px;
   }
 
   #mail a {
