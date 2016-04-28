@@ -39,6 +39,7 @@
   }
 
   img {
+    max-width: 60%;
     padding: 1px;
     border: 2px solid #330000;
     margin: 2px;
