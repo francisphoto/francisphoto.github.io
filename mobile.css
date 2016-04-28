@@ -11,8 +11,8 @@
   		color: #000;
   		margin: 0;
   		}
-      
-  	#sidebar, #footer {
+
+  	#sidebar, #footer #my-div {
   		display: none;
   		}
 
