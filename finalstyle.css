@@ -25,6 +25,7 @@ li {
 li a {
     display: inline-block;
     color: #330000;
+    font-size: 30px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,6 +38,7 @@ li a:visited {
 
 li a:hover {
   color: #b38600;
+  text-decoration: none;
 }
 
 a {
