@@ -7,7 +7,6 @@
     }
 
   	body {
-      text-align: center;
   		font: 8px;
   		background-image: url(background.jpg);
   		padding: 1px;
@@ -16,7 +15,6 @@
 
   	img {
   		max-width: 250px;
-      position: center;
   	}
 
   	a:link, a:visited {
